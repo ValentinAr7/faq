@@ -15,7 +15,7 @@ export function Faq(props) {
                 {fold ? '-' : '+'}
             </button>
 
-            {fold && <div className="content"></div>}
+            {fold && <div className="content">{props.desc}</div>}
             </h2>
 
         </div>

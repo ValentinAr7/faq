@@ -15,7 +15,12 @@ function App() {
 
         <Faq
           title={'Can I start job in 3 months?'}
-          descr={'If you are motivated enough you can laways become developer'}
+          desc={'Yes.'}
+         />
+
+<Faq
+          title={'Who is the best football team in the world?'}
+          desc={'Liverpool'}
          />
       </div>
 
