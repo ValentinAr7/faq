@@ -1,6 +1,6 @@
 body {
   background-color: #282c34;
-
+  margin-bottom: 200px;
 }
 
 .grid-section{
@@ -23,7 +23,6 @@ body {
   border-style: solid;
   text-align: center;
   overflow-y: auto;
-
 
 }
 
@@ -61,3 +60,6 @@ h1{
   font-size: medium;
 }
 
+.crypto-title{
+  font-size: bold;
+}
