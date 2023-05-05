@@ -11,11 +11,11 @@ export function Faq(props) {
         <div className="faq">
             <h2 className="faq-title">
             {props.title}
-        <div>
+       
         <button className="btn" onClick={() => setFold(!fold)}>
                 {fold ? '-' : '+'}
             </button>
-        </div>
+        
 
 
             {fold && <div className="content">{props.desc}</div>}
